@@ -1,2 +1,2 @@
 key = 123
-print(map(lambda x: ord()))
+print(''.join(map(lambda x: chr(ord(x) ^ key), input())))
